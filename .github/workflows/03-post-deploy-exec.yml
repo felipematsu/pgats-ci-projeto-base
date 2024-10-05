@@ -1,4 +1,4 @@
-# CI de Nível 02 - Disparo automático em períodos definidos
+# CI de Nível 03 - Disparo automático em períodos definidos
 
 name: 'Execução Agendada'
 
@@ -7,7 +7,7 @@ name: 'Execução Agendada'
 
 on:
   schedule:
-    - cron: '30 13 * * *'
+    - cron: '27 13 * * *'
 
 
 jobs:
